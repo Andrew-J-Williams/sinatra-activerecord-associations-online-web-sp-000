@@ -6,5 +6,9 @@ class App < Sinatra::Base
 	Cat.create(:name => "Hannah", :age => 2, :breed => "Tabby")
   Cat.create(:name => "Patches", :age => 2, :breed => "Calico")
 
+  Owner.create(:name => "Sophie")
+  Owner.create(:name => "Ann")
+
+
 
 end
